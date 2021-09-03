@@ -4,8 +4,8 @@ namespace DevFitness.API.Models.InputModels
 {
     public class UpdateMealInputModel
     {
-        public string Description { get; private set; }
+        public string Description { get;  set; }
         public int Calories { get; set; }
-        public DateTime Date { get; private set; }
+        public DateTime Date { get;  set; }
     }
 }

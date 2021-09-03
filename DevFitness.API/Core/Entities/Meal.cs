@@ -22,5 +22,12 @@ namespace DevFitness.API.Core.Entities
 
         public int UserId { get; private set; }
         public User User { get; private set; }  
+
+        public void Update(string description, int calories, DateTime date)
+        {
+            Description = description;
+            Calories = calories;
+            Date = date;
+        }
     }
 }
